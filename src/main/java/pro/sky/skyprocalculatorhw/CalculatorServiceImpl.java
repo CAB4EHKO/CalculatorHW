@@ -27,6 +27,7 @@ public class CalculatorServiceImpl implements CalculatorService {
         int result = num1 * num2;
         return num1 + " * " + num2 + " = " + result;
     }
+
     @Override
     public String divide(int num1, int num2) {
         if (num2 == 0) {
